@@ -1,0 +1,353 @@
+{
+  "input": {
+    "address": "BN111JnbLtbmQqqiCh7h2pDKhAhMx4wi77Mj7jJFbyp8",
+    "rpc": "https://solana-mainnet.g.alchemy.com/v2/6fe4nl7so0S9oC-IsBu4c",
+    "maxTx": 500,
+    "days": 2,
+    "fetchedSignatures": 500
+  },
+  "classification": {
+    "address": "BN111JnbLtbmQqqiCh7h2pDKhAhMx4wi77Mj7jJFbyp8",
+    "exists": true,
+    "type": "program",
+    "reason": "Account is executable",
+    "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+    "executable": true,
+    "lamports": 1141440,
+    "dataLength": 36
+  },
+  "balances": {
+    "currentLamports": 1141440,
+    "currentSOL": 0.00114144
+  },
+  "control": {
+    "upgradeableLoader": true,
+    "programData": "Df3ssK1ni8GzEoFuQyn4cQfC5mGZykebTERTT6EGQcFc",
+    "upgradeAuthority": "AbTThsLNRN9LKeZrHsUVF9MELPeMYwupMF1Jofmcmxiw"
+  },
+  "activity": {
+    "daysObserved": 1,
+    "totalTx": 500,
+    "avgTxPerDay": 500,
+    "dailyTx": {
+      "2026-02-25": 500
+    },
+    "trendLast7VsPrev7": null,
+    "sol": {
+      "netSOL": 0,
+      "grossAbsSOL": 0,
+      "totalFeesSOL": 0.063507296
+    }
+  },
+  "part2": {
+    "option": "A",
+    "windowDays": 2,
+    "swaps": {
+      "heuristic": "WSOL token balance abs delta across accounts (rough proxy; includes wrap/unwrap)",
+      "wsolSwapLikeTxCount": 407,
+      "windowSwapVolumeSOL": 2220.108554649,
+      "estWeeklySwapVolumeSOL": 7770.3799412715
+    },
+    "competition": {
+      "computeUnitPriceMicroLamports": {
+        "sampleCount": 0,
+        "min": null,
+        "max": null
+      }
+    },
+    "redFlags": {
+      "topFeePayerShare": 0.238,
+      "failedTxCount": 4,
+      "failedTxRate": 0.008
+    }
+  },
+  "users": {
+    "uniqueFeePayers": 6,
+    "uniqueSigners": 6,
+    "topFeePayers": [
+      {
+        "key": "tdDmurGTJ288UndUeueSpYcjwpSQY2kGxzrTC2FyvT8",
+        "count": 119
+      },
+      {
+        "key": "EcMXEHFS6ThGEiqsaM42wwRi8sXPXM285R3JJbWHZfVk",
+        "count": 109
+      },
+      {
+        "key": "7rqskAg1eYcHXwL4FFdmgNuJ6rg4jCDfE29ugeeTrKez",
+        "count": 105
+      },
+      {
+        "key": "FG8LEP14GKw6ADNcqNHhVLNLuyMiJJFjzLrbiUEVQ75j",
+        "count": 95
+      },
+      {
+        "key": "CbvTTmxWwHXfXiT9aVc9rBEYw4c3EwM9E8Xaji6aSjxQ",
+        "count": 40
+      },
+      {
+        "key": "Ac6P4EkqrFrbnHJRxe2mVCQCnbP2qoQBdtkC1Yggu2GF",
+        "count": 32
+      }
+    ],
+    "topSigners": [
+      {
+        "key": "tdDmurGTJ288UndUeueSpYcjwpSQY2kGxzrTC2FyvT8",
+        "count": 119
+      },
+      {
+        "key": "EcMXEHFS6ThGEiqsaM42wwRi8sXPXM285R3JJbWHZfVk",
+        "count": 109
+      },
+      {
+        "key": "7rqskAg1eYcHXwL4FFdmgNuJ6rg4jCDfE29ugeeTrKez",
+        "count": 105
+      },
+      {
+        "key": "FG8LEP14GKw6ADNcqNHhVLNLuyMiJJFjzLrbiUEVQ75j",
+        "count": 95
+      },
+      {
+        "key": "CbvTTmxWwHXfXiT9aVc9rBEYw4c3EwM9E8Xaji6aSjxQ",
+        "count": 40
+      },
+      {
+        "key": "Ac6P4EkqrFrbnHJRxe2mVCQCnbP2qoQBdtkC1Yggu2GF",
+        "count": 32
+      }
+    ]
+  },
+  "protocols": {
+    "counts": {
+      "Raydium": 241,
+      "OrcaWhirlpool": 130,
+      "Phoenix": 110
+    },
+    "topPrograms": [
+      {
+        "key": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "count": 3868
+      },
+      {
+        "key": "ComputeBudget111111111111111111111111111111",
+        "count": 1000
+      },
+      {
+        "key": "BN111JnbLtbmQqqiCh7h2pDKhAhMx4wi77Mj7jJFbyp8",
+        "count": 996
+      },
+      {
+        "key": "BN111TK638zTi7uSXCKkzXYPSRt3rKNSDBK6VsjS772b",
+        "count": 992
+      },
+      {
+        "key": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+        "count": 759
+      },
+      {
+        "key": "HuTkmnrv4zPnArMqpbMbFhfwzTR7xfWQZHH1aQKzDKFZ",
+        "count": 605
+      },
+      {
+        "key": "11111111111111111111111111111111",
+        "count": 500
+      },
+      {
+        "key": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+        "count": 418
+      },
+      {
+        "key": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+        "count": 303
+      },
+      {
+        "key": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+        "count": 241
+      },
+      {
+        "key": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "count": 156
+      },
+      {
+        "key": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+        "count": 130
+      },
+      {
+        "key": "PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY",
+        "count": 110
+      },
+      {
+        "key": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+        "count": 109
+      },
+      {
+        "key": "9H6tua7jkLhdm3w8BvgpTn5LZNU7g4ZynDmCiNN3q6Rp",
+        "count": 98
+      }
+    ]
+  },
+  "samples": {
+    "recentSignatures": [
+      {
+        "blockTime": 1772009281,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "FGuy3CbAUwpieUohzRJM6xmUjXrEax82CB1eTBYGWrdHZHs1sheDC8MrLv3bCU2TtGcV4Gbo99HTzEFZZabdGxF",
+        "slot": 402591144
+      },
+      {
+        "blockTime": 1772009229,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "4wPcX9Br5dNDYnemNUHKGeReCKJAwpc3RdG4xBB1wptDPqoY7SF7m2jZfJ8GUXoz6vhqFkyin9A9ZLAosMD3vsv",
+        "slot": 402591010
+      },
+      {
+        "blockTime": 1772009221,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "CeRJoFN8XJFQtbqqxd1w9FBMwy7GGPwg2rzVY2kf3Zz1UC7C7MMyeYM7jDHD3P84NRoRJTnT3HnDHNr6XbpNZTp",
+        "slot": 402590989
+      },
+      {
+        "blockTime": 1772009212,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "2Z975c8hA7uaydV5nctKqwahu4usX6J89V28J4M1qmh55qzSE3p1ikFKVEExz2v57Mvgh1AzJjLNPYck3CnujXcp",
+        "slot": 402590966
+      },
+      {
+        "blockTime": 1772009191,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "oVYDY68XDetsgkmp1FRYy9MGzGVsZZ4zwaMsBXaeGDtyMqZGMMof7Zvh1453JgzLftnPGKt7F5uAj2mNioEPGmt",
+        "slot": 402590915
+      },
+      {
+        "blockTime": 1772009184,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "35YTpnvaGTZ9bb8QqpwuUPFe3sgNaDsNxUJGQCdSaMkf9RUSKAkTagfeMiskaFh15Fyy2Yy1BzbikJUFh3c1tUXM",
+        "slot": 402590896
+      },
+      {
+        "blockTime": 1772009132,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "5E37er79LxQj6Sk8z17Kw5Uayz5PisAdY8UAuhtaNq48bF5ysXmsUCZhutE4yiH9SU2AyaJoxDzKXRsnhd4e3i4S",
+        "slot": 402590766
+      },
+      {
+        "blockTime": 1772009098,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "5SE7vKX3kT7PZwvHvHf4zFSjxcyThE3tDzEaRzDqQV4mizzaxDQJccqVwP1zv9Tn1ZhsevShZezVugR5H9FREEXW",
+        "slot": 402590679
+      },
+      {
+        "blockTime": 1772009069,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "oDGPgPqMFcP12B4wLHwbkPPVraRTHnFwFM2YpnxCJ5Gge7k5pYyTqDSi1JVyL6rYGTNVR3JChVEWRemickGNsCd",
+        "slot": 402590605
+      },
+      {
+        "blockTime": 1772009069,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "v6huR5UVXTQESMHwqW9oQYdBDrfhNnA44mDG7inQHamKNdfRs2PGJMc1tnnRUS78MQgyYFiq8ErwYt96zTV8bsG",
+        "slot": 402590604
+      },
+      {
+        "blockTime": 1772009068,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "5TddkPxmsB9XoSifdQonH1mu54hxCtEy2iXwPGUVq1Qh8z8bRghMrAaeDtdvkzBToWjfv3iLVTWjWSoi5KcMjoiH",
+        "slot": 402590601
+      },
+      {
+        "blockTime": 1772009050,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "3rcgQ9yhsX2wGMYCdyuFtBeHnbVNQZGQS5sCP2xDroe9GK8ifkD33VqRUohMUjKv5UAQK1PWx8rdG2JTth4qtPRd",
+        "slot": 402590556
+      },
+      {
+        "blockTime": 1772009047,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "3xDayz7mpzEcutsy8FEE21ub7MYe4Yo6koYRM6kxCuasZ2eqrjW1cbfjV6VxjZct5jVsQ6yEBGPDXyZ7PDUhd8vC",
+        "slot": 402590548
+      },
+      {
+        "blockTime": 1772009004,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "5PNR2YwmTLVMfoE2MEka1zpDbszcUEeAqEUeoxfEyeTVavVbYevUM7Ss25HTbGp4CARgARrWcoTBaFCrDFDEHLmR",
+        "slot": 402590438
+      },
+      {
+        "blockTime": 1772008989,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "3KcP2GghVZyJi8FQxinZzuFUdAkYqqEj9XkfDSE2SXEE28LhPxZbTndRv23mRazz1oL5PsU2YQ7NDNfvxsK16DwD",
+        "slot": 402590399
+      },
+      {
+        "blockTime": 1772008988,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "5pdWpPNpRVVeModDLzYNaf6Fqb1ff9P716b6zQBsJCGQJsSVR9QcqSgFWjiJZJkXDooRq8S1Cz1dMJUW8nh49kbS",
+        "slot": 402590396
+      },
+      {
+        "blockTime": 1772008969,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "5SkZPSGWz5AsUCfnhyEpx7xyUkrVFoLtRQb3k5LQDViQWexh1xNgX7ZeWh9tsCUDWfVnMH2rTadwp8tHZjWnVJ8y",
+        "slot": 402590348
+      },
+      {
+        "blockTime": 1772008923,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "jY5yVE75S6b2BRHBtvTNT52kuU478WYRHWeGyKjAPNALL1aQUEHoV9Sx7rnMBguPdHVqvH2b9yyZ8yPYNS74i1B",
+        "slot": 402590232
+      },
+      {
+        "blockTime": 1772008884,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "3iJPEf43ud1dsj5EkR4mDqoJjqXLohWXaWcKdBxGcsaKhnjMMWc4iR2ew9LuyEaHdTQRP4YnRdMR4NjB2NVR4mja",
+        "slot": 402590138
+      },
+      {
+        "blockTime": 1772008878,
+        "confirmationStatus": "finalized",
+        "err": null,
+        "memo": null,
+        "signature": "5xG2HvoRuRTj7zwRXJkpbmsPehYJDwzJFdFKB21mUwCQnczKBMzBkyxWYmGFV4f6XHeGdKKF6gKHj68VTwTtEgMG",
+        "slot": 402590122
+      }
+    ]
+  }
+}
