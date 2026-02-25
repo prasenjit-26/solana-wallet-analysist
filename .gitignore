@@ -1,0 +1,21 @@
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env
+.env
+.env.*
+
+# OS
+.DS_Store
+
+
+# coverage
+coverage/
+
+# misc
+*.tmp
+*.swp
